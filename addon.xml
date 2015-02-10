@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.screensaver.image" name="Image" version="0.1.0" provider-name="Mattias Bengtsson (mattias.jc.bengtsson@gmail.com)">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.ui.screensaver" library="screensaver.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language/>
+        <website></website>
+        <email>mattias.jc.bengtsson@gmail.com</email>
+        <summary lang="en">Simple Image Screensaver</summary>
+        <description lang="en">Simple Image Screensaver</description>
+    </extension>
+</addon>
